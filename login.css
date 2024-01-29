@@ -1,0 +1,17 @@
+body {
+  background-image: url(/img/index_bg.jpg);
+  background-size: cover;
+  font-family: 'Sofia', sans-serif;
+}
+.user {
+  position: absolute;
+  align-items: center;
+  left: 580px;
+  font-size: large;
+  width: 45em;
+}
+#nav {
+  background: transparent;
+  border: transparent;
+  font-size: 20px;
+}

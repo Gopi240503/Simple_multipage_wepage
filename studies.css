@@ -1,0 +1,141 @@
+body {
+  background-image: url(/img/studies_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Sofia', sans-serif;
+  font-size: 20px;
+}
+#nav {
+  background: transparent;
+  border: transparent;
+}
+.circle {
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  transition: 1s;
+}
+
+.img1 {
+  height: 250px;
+  width: 220px;
+  position: absolute;
+  top: -60px;
+  left: 15px;
+  transition: 1s;
+}
+.circle:hover {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  transition: 1s;
+}
+.circle:hover .img1 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  transition: 1s;
+}
+.school {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  color: blueviolet;
+}
+
+.circle:hover .school {
+  opacity: 0;
+}
+.badge {
+  color: white;
+  background-color: black;
+}
+.circle .content {
+  opacity: 0;
+}
+.circle:hover .content {
+  position: absolute;
+  top: 120px;
+  opacity: 1;
+  left: 160px;
+  color: white;
+  transition: 1s;
+  text-shadow: 0 0 1em black, 0 0 3em black;
+}
+
+.circle:hover .circle2 {
+  position: relative;
+  right: 50px;
+  transition: 1s;
+}
+.circle2 {
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 150px;
+  left: 900px;
+  transition: 1s;
+}
+.img2 {
+  height: 200px;
+  width: 220px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  transition: 1s;
+}
+.circle2:hover {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  transition: 1s;
+}
+.circle2:hover .img2 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  transition: 1s;
+}
+.circle2 .content2 {
+  opacity: 0;
+}
+.circle2:hover .content2 {
+  position: absolute;
+  top: 120px;
+
+  opacity: 1;
+  left: 140px;
+  color: white;
+  transition: 1s;
+  text-shadow: 0 0 1em black, 0 0 3em black;
+}
+.h3 {
+  font-size: 2em;
+}
+.h5 {
+  font-size: 1em;
+}
+.circle2:hover .content3 {
+  position: relative;
+  right: 40px;
+}
+.clg_title {
+  color: blueviolet;
+  position: absolute;
+  left: 85px;
+}
+.circle2:hover .clg_title {
+  opacity: 0;
+}

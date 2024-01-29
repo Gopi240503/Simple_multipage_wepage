@@ -1,0 +1,33 @@
+body {
+  background-image: url(/img/Home_BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nav {
+  background: transparent;
+  opacity: 0.5;
+  text-decoration: none;
+  border-color: transparent;
+  font-size: 20px;
+}
+#head1 {
+  position: absolute;
+  top: 250px;
+  left: 480px;
+  font-family: 'Sofia', sans-serif;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0 0 0.2em white, 0 0 0.4em white;
+}
+#Lets {
+  position: absolute;
+  top: 350px;
+  left: 660px;
+  font-family: 'Sofia', sans-serif;
+  font-size: 45px;
+  color: black;
+  text-shadow: 0 0 0.2em white, 0 0 0.3em white;
+}
+.row {
+  font-family: 'Sofia', sans-serif;
+}
